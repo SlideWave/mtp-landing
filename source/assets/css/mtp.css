@@ -5,8 +5,14 @@
  */
 
 body {
-    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 80px;
+    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold',
+      Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black',
+      'sans serif';
+    color: black;
 }
+
+
 
 .nb-main {
     min-height: 80px;
@@ -21,17 +27,35 @@ footer {
 }
 
 @media (max-width: 510px) {
-    .mtp-logo {
-        margin-top: 15px;
-        width: 148px;
-        height: 52px;
-        background: url(../img/Mint-Tin-Pirates-logo-mobile.png);
-    }
+  body {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .mtp-logo {
+      margin-top: 15px;
+      margin-left: 10px;
+      width: 148px;
+      height: 52px;
+      background: url(../img/Mint-Tin-Pirates-logo-mobile.png);
+  }
 }
 
 @media (min-width: 511px) {
+    body {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 59px;
+    }
+
     .mtp-logo {
         margin-top: 15px;
+        margin-left: 10px;
         width: 439px;
         height: 59px;
         background: url(../img/Mint-Tin-Pirates-logo.png);
@@ -45,4 +69,10 @@ footer {
 
 .navbar-toggle {
   margin-top: 20px;
+}
+
+
+
+.video-embed {
+  margin: 20px;
 }
