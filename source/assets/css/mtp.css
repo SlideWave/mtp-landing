@@ -5,7 +5,11 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 80px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.nb-main {
+    min-height: 80px;
 }
 
 .portfolio-item {
@@ -18,6 +22,7 @@ footer {
 
 @media (max-width: 510px) {
     .mtp-logo {
+        margin-top: 15px;
         width: 148px;
         height: 52px;
         background: url(../img/Mint-Tin-Pirates-logo-mobile.png);
@@ -26,8 +31,18 @@ footer {
 
 @media (min-width: 511px) {
     .mtp-logo {
+        margin-top: 15px;
         width: 439px;
         height: 59px;
         background: url(../img/Mint-Tin-Pirates-logo.png);
     }
+}
+
+.headline-row {
+  background: url(../img/background-texture.png);
+  background-repeat: repeat;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
 }
