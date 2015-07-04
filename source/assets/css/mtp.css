@@ -71,8 +71,15 @@ footer {
   margin-top: 20px;
 }
 
-
-
 .video-embed {
   margin: 20px;
+}
+
+.teaser {
+  padding-bottom: 20px;
+}
+
+.play-button {
+  width: 172px;
+  padding-bottom: 20px;
 }
