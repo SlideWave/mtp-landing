@@ -1,0 +1,33 @@
+/*!
+ * Start Bootstrap - Portfolio Item HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media (max-width: 510px) {
+    .mtp-logo {
+        width: 148px;
+        height: 52px;
+        background: url(../img/Mint-Tin-Pirates-logo-mobile.png);
+    }
+}
+
+@media (min-width: 511px) {
+    .mtp-logo {
+        width: 439px;
+        height: 59px;
+        background: url(../img/Mint-Tin-Pirates-logo.png);
+    }
+}
