@@ -134,3 +134,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
 }
+
+.testimonial-row {
+    background-color: #d30000;
+}
