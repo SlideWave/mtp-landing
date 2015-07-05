@@ -138,3 +138,10 @@ footer {
 .testimonial-row {
     background-color: #d30000;
 }
+
+.testimonial-bigcol {
+    background-image: url(../img/skull.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 328px;
+}
