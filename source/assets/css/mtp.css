@@ -110,3 +110,27 @@ footer {
 .content-col-text {
   padding-top: 20px;
 }
+
+.pull-down {
+    vertical-align: bottom;
+    border:0;
+}
+
+.content-decorative-left {
+    background-image: url(../img/black-x-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.content-decorative-right {
+    background-image: url(../img/black-x.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
