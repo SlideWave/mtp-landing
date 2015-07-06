@@ -144,4 +144,26 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     height: 328px;
+    text-align: center;
+}
+
+.v-center {
+    display:table;
+    height:300px;
+}
+
+.content {
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+#myCarousel>.carousel-inner >.item>.content {
+    margin: 0 auto;
+    height: 300px;
+    font-size: 28px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
 }
