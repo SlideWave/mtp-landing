@@ -167,3 +167,9 @@ footer {
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
+
+.contact-row {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+}
