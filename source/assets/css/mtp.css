@@ -159,8 +159,8 @@ footer {
 
 #myCarousel>.carousel-inner >.item>.content {
     margin: 0 auto;
-    height: 300px;
-    font-size: 28px;
+    height: 315px;
+    font-size: 26px;
 }
 
 .carousel-control.left, .carousel-control.right {
