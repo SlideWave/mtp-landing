@@ -94,6 +94,11 @@ footer {
   padding-bottom: 20px;
 }
 
+.play-button > img {
+  width: 170px;
+  padding-bottom: 20px;
+}
+
 .slideshow-row {
   background-color: black;
 }
